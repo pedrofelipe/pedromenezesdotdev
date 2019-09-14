@@ -1,0 +1,7 @@
+{
+  "extends": "@kununu/eslint-config",
+  "rules": {
+    "react/jsx-one-expression-per-line": "off",
+    "import/no-extraneous-dependencies": "off"
+  }
+}

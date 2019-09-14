@@ -1,8 +1,11 @@
 {
-  "name": "pedromenezesdotdev",
+  "name": "pedromenezes",
   "version": 2,
   "alias": ["pedromenezes.dev", "www.pedromenezes.dev"],
   "builds": [
-    {"src": "next.config.js", "use": "@now/next"}
+    {
+      "src": "package.json",
+      "use": "@now/static-build"
+    }
   ]
 }

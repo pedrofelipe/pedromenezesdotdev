@@ -1,13 +1,14 @@
 {
-  "name": "pedromenezesdotdev",
+  "name": "pedromenezes",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@zeit/next-sass": "1.0.1",
-    "next": "8.0.3",
-    "node-sass": "4.11.0",
-    "react": "16.8.3",
-    "react-dom": "16.8.3"
+    "next": "9.0.5",
+    "node-sass": "4.12.0",
+    "prop-types": "15.7.2",
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
   },
   "scripts": {
     "dev": "next",
@@ -16,8 +17,18 @@
     "start": "next start"
   },
   "devDependencies": {
-    "@babel/core": "7.3.4",
-    "sass-loader": "7.1.0",
-    "webpack": "4.29.6"
-  }
+    "@babel/core": "7.6.0",
+    "@kununu/eslint-config": "1.2.1",
+    "@kununu/stylelint-config": "1.0.3",
+    "autoprefixer": "9.6.1",
+    "next-images": "1.1.2",
+    "postcss-comment": "2.0.0",
+    "sass-loader": "8.0.0",
+    "webpack": "4.40.0"
+  },
+  "browserslist": [
+    "defaults",
+    "iOS >= 8",
+    "IE 11"
+  ]
 }
