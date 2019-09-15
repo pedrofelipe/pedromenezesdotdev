@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Career = () => (
+const WorkExperience = () => (
   <section>
-    <h3>Career</h3>
+    <h3>Work Experience</h3>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium et est at suscipit. Nulla ut ipsum nibh. Nullam mollis tortor eu vestibulum egestas. Curabitur dignissim et neque tempus maximus.
     </p>
@@ -12,4 +12,4 @@ const Career = () => (
   </section>
 );
 
-export default Career;
+export default WorkExperience;

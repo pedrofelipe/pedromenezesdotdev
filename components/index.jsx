@@ -4,20 +4,22 @@ import styles from './styles/index.css';
 import AppHead from './AppHead';
 import Footer from './Footer';
 import {
-  Intro,
   Career,
+  Intro,
+  Personal,
+  WorkExperience,
 } from './Sections';
-
-import './styles/resets.css';
 
 const App = () => (
   <>
     <AppHead />
-    <div className={styles.container}>
+    <main className={styles.container}>
       <Intro />
       <Career />
+      <WorkExperience />
+      <Personal />
       <Footer />
-    </div>
+    </main>
   </>
 );
 

@@ -1,8 +1,17 @@
 import React from 'react';
 
-const Career = () => (
+const Personal = () => (
   <section>
-    <h3>Career</h3>
+    <h3>Personal</h3>
+    <h2>
+      <a
+        href="https://twitter.com/brwikiedits"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        @brwikiedits
+      </a>
+    </h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium et est at suscipit. Nulla ut ipsum nibh. Nullam mollis tortor eu vestibulum egestas. Curabitur dignissim et neque tempus maximus.
     </p>
@@ -12,4 +21,4 @@ const Career = () => (
   </section>
 );
 
-export default Career;
+export default Personal;

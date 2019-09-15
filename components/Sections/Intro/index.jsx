@@ -7,9 +7,9 @@ import IconLinkedIn from '../../Icons/LinkedIn';
 import styles from './index.css';
 
 const Intro = () => (
-  <section className={styles.section}>
-    <h4 className={styles.sub}>Intro</h4>
-    <h2 className={styles.title}>
+  <section>
+    <h3>Intro</h3>
+    <h1 className={styles.title}>
       Hey there!
       <span
         aria-label="Hand-waving"
@@ -19,7 +19,7 @@ const Intro = () => (
         👋
       </span>
       I’m Pedro Menezes, a Frontend Engineer with 5+ years of experience.
-    </h2>
+    </h1>
     <p className={styles.desc}>
       Currently based in Porto, Portugal.
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend, diam at dignissim iaculis, lectus urna viverra lacus, eget feugiat nibh risus in lorem. In accumsan tortor id viverra faucibus.

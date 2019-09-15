@@ -1,7 +1,11 @@
-import Intro from './Intro';
 import Career from './Career';
+import Intro from './Intro';
+import Personal from './Personal';
+import WorkExperience from './WorkExperience';
 
 export {
-  Intro,
   Career,
+  Intro,
+  Personal,
+  WorkExperience,
 };
