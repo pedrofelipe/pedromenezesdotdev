@@ -19,6 +19,10 @@ body {
   line-height: 1.5em;
   letter-spacing: -.03rem;
   background-color: var(--background-color);
+
+  ::selection {
+    color: var(--link-color);
+  }
 }
 
 a {
