@@ -3,8 +3,7 @@
   --color-primary-h: 338;
   --color-primary-l: 63%;
   --color-primary-s: 83%;
-  --color-primary: hsl(228, 74%, 61%);
-  --color-white: hsl(0, 0%, 100%);
+  --color-white: #ffffff;
   --switch-animation-duration: .2s;
   --switch-height: 32px;
   --switch-padding: 3px;

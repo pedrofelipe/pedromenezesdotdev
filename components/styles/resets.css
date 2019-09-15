@@ -6,11 +6,17 @@
 
 html {
   font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%; // stylelint-disable-line
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 header,
@@ -19,20 +25,39 @@ footer {
   display: block;
 }
 
-p {
+h1,
+h2,
+h3,
+p,
+ul {
   margin: 0;
 }
 
-ul {
-  margin: 0;
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 a {
   text-decoration: none;
   background-color: transparent;
 
-  &:hover {
-    text-decoration: underline;
+  &:hover,
+  &:focus {
+    text-decoration: none;
   }
 }
 
@@ -47,7 +72,7 @@ button {
   [type='button'],
   [type='reset'],
   [type='submit'] {
-    -webkit-appearance: button; // stylelint-disable-line
+    -webkit-appearance: button;
   }
 
   &::-moz-focus-inner,
@@ -65,23 +90,4 @@ button {
   [type='button']:not(:disabled) {
     cursor: pointer;
   }
-}
-
-h1,
-h2,
-h3 {
-  margin-top: 0;
-  margin-bottom: .5rem;
-}
-
-h1 {
-  font-size: 2.5rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.75rem;
 }

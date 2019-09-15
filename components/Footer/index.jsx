@@ -1,10 +1,11 @@
 import React from 'react';
 
-import styles from './index.scss';
+import styles from './index.css';
 
 const Footer = () => (
   <footer className={styles.container}>
-    <p className={styles.content}>
+    <p className={styles.copyleft}>
+      Pedro Menezes
       <span
         aria-label="Globe emoji"
         className={styles.emoji}
@@ -12,7 +13,7 @@ const Footer = () => (
       >
         🌎
       </span>
-      1995-{new Date().getFullYear()}
+      {`1995 - ${new Date().getFullYear()}`}
     </p>
   </footer>
 );

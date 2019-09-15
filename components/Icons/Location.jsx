@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 const Icon = ({className}) => (
   <svg
     className={className}
-    height="12"
+    height={12}
     viewBox="0 0 9 12"
-    width="9"
+    width={9}
     xmlns="http://www.w3.org/2000/svg"
   >
     <path

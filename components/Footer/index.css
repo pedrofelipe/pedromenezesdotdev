@@ -1,0 +1,21 @@
+.container {
+  max-width: 820px;
+  margin: 50px auto;
+  color: var(--section-title-color);
+  letter-spacing: -.1px;
+}
+
+.copyleft {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.emoji {
+  position: relative;
+  top: 2px;
+  margin: 0 5px 0 10px;
+  font-size: .875rem;
+}
