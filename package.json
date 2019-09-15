@@ -10,13 +10,12 @@
   },
   "scripts": {
     "dev": "next",
-    "now-build": "next build",
+    "now-build": "next build && next export -o dist",
     "build": "next build",
     "start": "next start"
   },
   "devDependencies": {
     "@babel/core": "7.6.0",
-    "@fullhuman/postcss-purgecss": "1.3.0",
     "@kununu/eslint-config": "1.2.1",
     "@kununu/stylelint-config": "1.0.3",
     "@zeit/next-css": "1.0.1",
