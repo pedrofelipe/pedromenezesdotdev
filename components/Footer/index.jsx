@@ -12,7 +12,7 @@ const Footer = () => (
     >
         🌎
     </span>
-    {`1995-${new Date().getFullYear()}`}
+    {new Date().getFullYear()}
   </footer>
 );
 

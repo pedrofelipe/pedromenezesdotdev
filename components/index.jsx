@@ -6,7 +6,7 @@ import Footer from './Footer';
 import {
   Career,
   Intro,
-  Personal,
+  PersonalProjects,
   WorkExperience,
 } from './Sections';
 
@@ -17,7 +17,7 @@ const App = () => (
       <Intro />
       <Career />
       <WorkExperience />
-      <Personal />
+      <PersonalProjects />
       <Footer />
     </main>
   </>
